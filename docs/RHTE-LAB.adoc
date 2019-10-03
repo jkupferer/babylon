@@ -1,0 +1,26 @@
+:babylon_ocp_url: https://master.babydev.babylon.open.redhat.com/
+
+# Red Hat Tech Exchange Babylon Lab
+
+:numbered:
+
+## Provision a Course
+
+. Authenticate to the cluster console with your OpenTLC credentials:
++
+{babylon_ocp_url}
++
+Your OpenTLC username will be your email address with the `@` replaced by `-`.
+For example `username@redhat.com` would be `username-redhat.com`.
+
+. Create a project namespace using the button in the upper right, image:images/ocp3-create-project-button.png[Create Project].
++
+Name your project to match your username.
+
+. Within your projcet namespace, use the "Add to Project" control in the upper right and select "Browse Catalog".
++
+image:images/ocp3-add-to-project-browse-catalog.png[Add to Project - Browse Catalog]
+
+. Select one of the catalog items.
+
+. Click "Next >" and then "Create"
